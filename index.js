@@ -88,7 +88,7 @@ downloadButton.addEventListener("click", function () {
     const rowData = [];
     for (let j = 0; j < tableRows[i].cells.length; j++) {
       let cellData = tableRows[i].cells[j].innerHTML;
-      if (j === tableRows[i].cells - 1) {
+      if (j === tableRows[i].cells.length - 1) {
         const image = tableRows[i].cells[j].querySelector("img");
         cellData = image.src;
       }
