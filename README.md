@@ -2,13 +2,9 @@
 
 Este proyecto muestra una tabla de información de usuarios obtenidos desde una API que permite ordenarlos y descargarlos en formato CSV.
 
-#
-
 ## Funcionamiento
 
 Se realiza una llamada a la API https://randomuser.me/api/ para obtener información de 15 usuarios, los cuales se muestran en una tabla. Cada columna de la tabla tiene un botón para ordenar la información en orden ascendente o descendente. También hay un botón para descargar la información en formato CSV.
-
-#
 
 ## Tecnologías
 
@@ -16,13 +12,9 @@ Se realiza una llamada a la API https://randomuser.me/api/ para obtener informac
 - CSS
 - JavaScript
 
-#
-
 ## Instalación
 
 No es necesario ninguna instalación, solo se descarga el código y se abre el archivo index.html en un navegador para ver el funcionamiento de la aplicación.
-
-#
 
 ## Licencia
 
