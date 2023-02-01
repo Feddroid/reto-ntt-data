@@ -1,0 +1,23 @@
+.table-striped>tbody>tr:nth-of-type(odd)>*{
+  background-color: #b4c6e7;
+}
+.table-striped>tbody>tr:nth-child(2n)>*{
+  background-color: #d9e1f2;
+}
+table thead{
+  background-color: #4472c4 !important;
+  color: white;
+}
+.sortButton{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 900;
+  transform: rotate(90deg);
+}
+.sortArrow{
+  transform: rotate(-90deg) !important;
+}
+.sortItem.active {
+  background-color: #2d4a7b;
+}
